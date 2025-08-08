@@ -5,10 +5,10 @@
   "framework": "vite",
   "functions": {
     "pages/api/sectors.js": {
-      "runtime": "nodejs18.x"
+      "runtime": "@vercel/node"
     },
     "pages/api/health.js": {
-      "runtime": "nodejs18.x"
+      "runtime": "@vercel/node"
     }
   },
   "headers": [
